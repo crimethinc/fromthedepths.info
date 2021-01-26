@@ -1,0 +1,323 @@
+/* From The Depths 1.0 CSS */
+
+
+/* OVERALL PAGE, sets background, gets rid of margains*/
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	/*-webkit-text-size-adjust: none;*/
+}
+
+
+
+
+/* WRAPPER, sets page width, centers main */
+#metawrapper {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wrapperindex {
+	width: 900px;
+	height: 970px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(ftd_dirt.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	float: left;
+}
+
+#wrapperfit {
+	width: 900px;
+	height: 970px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #480000;
+	background-image: url(ftd_dirt_color.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	float: left;
+}
+
+#wrapperstretch {
+	width: 900px;
+	height: 100%;
+	padding-bottom: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #480000;
+	background-image: url(ftd_dirt_color.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	float: left;
+}
+
+
+/* MAIN, Contains site content */
+#footer {
+	margin-top: -133px;
+	padding-right: 7px;
+	padding-left: 40px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	clear: both;
+	float: left;
+	width: 290px;
+}
+
+#footer p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #430000;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 12px;
+	text-align: right;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer a:visited, #footer a:link  {
+	color: #480000;
+}
+
+#footer a:hover, #footer a:active {
+	color: #BBBB00;
+	background-color: #FFFFFF;
+}
+
+#main img {
+	margin-top: -15px;
+}
+
+#header {
+	margin: 0px 0px 0px 25px;
+	padding: 25px 0px 0px 150px;
+	float: left;
+	width: auto;
+	border: none;
+	display: inline;
+}
+
+#content {
+	margin: 0px 0px 0px 25px;
+	padding: 50px 160px 15px 160px;
+	float: left;
+	width: 525px;
+	border: none;
+	display: inline;
+}
+	
+#content h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 0.2em;
+	margin-top: -27px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 13px;
+}
+
+#content h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: -0.04em;
+	margin-top: 0px;
+	margin-bottom: 9px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+
+#content h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #857D7E;
+	text-decoration: none;
+	letter-spacing: -0.02em;
+	margin-top: 0px;
+	margin-bottom: 9px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+#content h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: -0.02em;
+	margin-top: 0px;
+	margin-bottom: 9px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	text-align: left;
+	padding-right: 0px;
+	font-weight: normal;
+}
+
+
+#content p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 16px;
+}
+
+#content img {
+	padding: 0px;
+	margin-top: 0px !important;
+	float: left;
+	margin-right: 15px;
+	border: 2px solid #FFFFFF;
+	display: inline;
+}
+
+#content a, #contenttop a {
+	text-decoration: none;
+}
+
+#content a:visited {
+	color: #BBBB00;
+}
+
+#content a:link {
+	color: #BBBB00;
+}
+
+#content a:hover, #content a:active {
+	color: #480000;
+	background-color: #FFFFFF;
+}
+
+#menu {
+	margin: 25px 0px 0px 25px;
+	padding: 425px 150px 15px 150px;
+	float: left;
+	width: 550px;
+	border: none;
+	display: inline;
+}
+
+#menunorm {
+	margin: 5px 0px 0px 5px;
+	padding: 128px 5px 5px 30px;
+	float: left;
+	width: auto;
+	border: none;
+	display: inline;
+}
+
+#menu p, #menunorm p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 26px;
+	font-weight: normal;
+	letter-spacing: -0.075em;
+}
+
+#menu a, #menunorm a {
+	text-decoration: none;
+}
+
+#menu a:visited, #menunorm a:visited {
+	color: #FFFFFF;
+}
+
+#menu a:link, #menunorm a:link {
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu a:active, #menunorm a:hover, #menunorm a:active {
+	color: #480000;
+	background-color: #FFFFFF;
+}
+
+.shows {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 16px;
+}
+
+.date {
+	width: 95px;
+}
+
+.city {
+	width: 125px;
+}
+
+.details {
+	width: 295px;
+}
+
+.row_alt {
+	background-color: #5D0000;
+}
+
+
+/* LIGHTBOX LIGHTBOX LIGHTBOX LIGHTBOX LIGHTBOX LIGHTBOX LIGHTBOX LIGHTBOX */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/prevlabel.png) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/nextlabel.png) right 15% no-repeat; }
+
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }

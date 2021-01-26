@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>From the Depths : Songs : Murderers</title>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/feed" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<!--[if gt IE 6]>
+<link rel="stylesheet" type="text/css" href="/css/ie7.css"/>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/css/ie6.css"/>
+<![endif]-->
+
+
+<script type="text/javascript" src="/css/js/prototype.js"></script>
+<script type="text/javascript" src="/css/js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="/css/js/lightbox.js"></script>
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+// Comma separated list of images to rotate 
+var imgs = new Array('murderers2.jpg','murderers1.jpg');
+// delay in milliseconds between image swaps 1000 = 1 second 
+var delay = 5000;
+var counter = 0;
+
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+//-->
+</script>
+
+</head>
+
+<body onload="preloadImgs();randomImages();">
+<div id="metawrapper">
+<div id="wrapperstretch">
+<div id="header">
+<a href="/index.html"><img src="ftd_logo.gif" border="0"></a>
+</div>
+<div id="menunorm">
+<p><a href="shows.html">&nbsp;shows </a>:<a href="music.html"> <span style="text-decoration: underline">music</span> </a>:<a href="artwork.html"> artwork </a>:<a href="contact.html"> contact&nbsp;</a></p></div>
+<div id="content">
+<h4><a href="music.html">&lt; <em>return to music page</em></a></h4>
+<br />
+<h2>Murderers</h2>
+<img src="murderers2.jpg" style="margin-bottom: 14px" name="rotator" width="523" height="223" id="rotator">
+<p>In every slaughterhouse, every holocaust and war<br />
+There are some who choose to serve<br />
+But you have to get by, and we all of us die<br />
+And if not you, it would be someone else<br />
+So you tell yourself<br />
+Murderers</p>
+
+<p>And both the spectators and the ones who look away<br />
+However much they disapprove<br />
+When they lie down to sleep, do their best to believe<br />
+There was nothing at all that anyone could do</p>
+
+<p>But every slaughterhouse, every holocaust and war<br />
+Demands the peace of millions more<br />
+Wring your hands or applaud<br />
+Every blow you let fall<br />
+You&rsquo;re accomplices all<br />
+Murderers</p>
+</div>	
+</div>
+<div id="footer">
+<p><a href="http://www.crimethinc.com"><img src="footer_logo.gif" style="padding-bottom; 3px" border="0px"><br />A vanguard of the CrimethInc. Ex-Workers&rsquo; Collective<br /><strong>www.crimethinc.com</strong></a></p>
+</div>
+</div>
+</body>
+</html>
